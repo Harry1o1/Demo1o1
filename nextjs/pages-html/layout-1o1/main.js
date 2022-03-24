@@ -2,11 +2,17 @@ let input = document.querySelector('input');
 let left_btn = document.querySelector('#left_sidebar_opener-container1');
 let right_btn = document.querySelector('#right_sidebar_opener-container1');
 let ion_icons = document.querySelectorAll('ion-icon');
+
+let ion_cross_icon = document.querySelectorAll('ion-icon[name=close-outline]')
 let original_attr;
 
 
 
-
+ion_cross_icon.forEach(op=>{
+    op.addEventListener('click',()=>{
+        console.log('closo icon');
+    })
+})
 
 
 
