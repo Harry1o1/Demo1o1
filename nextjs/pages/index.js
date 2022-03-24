@@ -10,6 +10,10 @@ import { motion } from 'framer-motion';
 export default function Home() {
   return (
     <>  
+    <motion.a
+  whileFocus={{ scale: 1.2 }}
+  href="#"
+/>
     <motion.div initial="hidden" animate="visible" variants={{
   hidden: {
     scale: .8,
