@@ -46,13 +46,13 @@
 
 html {
     visibility: none !important;
-    min-height: 100vh !important;
+    /* min-height: 100vh !important; */
     width: 100% !important;
 }
 
 body {
     /* min-height: 100%; */
-    min-height: 300vh !important;
+    min-height: 100vh !important;
     width: 100% !important;
 
 }
@@ -60,6 +60,12 @@ body {
 
 
 
+@media(max-height:368px) and (min-width:980px) {
+    
+    body{
+        background: #FF9C9C;
+    }
+}
 
 @media(min-width:900px) {
     :root {
@@ -256,65 +262,6 @@ ion-icon {
     
     z-index: 2;
 }
-/* @keyframes Sidebar-left-animation {
-  0%   {
-      display: none !important;
-  }
-  10%{
-      
-      display: block;
-      height: 1vh;
-      scale: 30vh;
-      
-  }
-  25%  {
-      
-      height: 1vh;
-      
-  }
-  35%{
-      height: 15vh;
-  }
-  50%  {
-      height: 50vh;
-      
-  }
-  100% {
-      min-height: 100vh;
-      
-  }
-} */
-/* @keyframes Sidebar-right-animation {
-  0%   {
-      display: none !important;
-  }
-  10%{
-      
-      display: block;
-      left: 100%;
-      
-  }
-  25%  {
-      
-      height: 1vh;
-      left: 97%;
-      
-  }
-  35%{
-      height: 15vh;
-      left: 95%;
-      
-  }
-  50%  {
-      height: 50vh;
-      left: 93%;
-      
-  }
-  100% {
-      left: 90%;
-      
-  }
-} */
 @keyframes menuPopup {
 
   0% {
@@ -363,14 +310,18 @@ ion-icon {
 }
 #pro_sidebar_left-ul1{
     
+    
     height: 25rem;
+    
 }
 #pro_sidebar_left-ul2{
     
+    background: #FFE8E8;
     height: 60rem;
 }
 #pro_sidebar_left-ul3{
     
+    background: #E4FFE5;
     /* border-bottom: var(--border-color); */
     border-top: var(--border-color);
     
@@ -460,18 +411,20 @@ ion-icon {
     
     padding: 0 1.5rem !important;
 }
-#yt_ai_nav::-webkit-scrollbar{
+::-webkit-scrollbar{
     
+    /* display: none; */
+    /* width: 1rem; */
     display: none;
 }
-/* #yt_ai_nav::-webkit-scrollbar-track{
-    background: #EAEAEA;
+::-webkit-scrollbar-track{
+    background: #FF9C9C;
     
-} */
-/* #yt_ai_nav::-webkit-scrollbar-thumb{
-    background: #000000;
+}
+::-webkit-scrollbar-thumb{
+    background: #FF3C3C;
     width: 5rem;
-} */
+}
 
 
 
@@ -685,10 +638,12 @@ ion-icon {
     
     
     width: 100%;
+    /* height: 90rem; */
     height: 100vh;
     
     padding-top: 2rem !important;
     padding-bottom: 30rem !important;
+    
 }
 .hmmc_li{
     
@@ -727,6 +682,36 @@ ion-icon {
 
 
 
+.close-toggler ion-icon[name="close-outline"]{
+    
+    /* background: red; */
+    /* color: red !important; */
+    display: none;
+    transition: all linear 5s;    
+    
+    
+}
+.close-toggler.active ion-icon[name="close-outline"]{
+    
+    display: block !important;
+    transition: all linear 5s;    
+    
+}
+.close-toggler.active ion-icon:nth-child(1){
+    display: none;
+    /* color: red; */
+    transition: all linear 5s;    
+    
+}
+
+
+
+
+.close-toggler:hover ion-icon{
+    
+    /* background: red; */
+    color: red !important;
+}
 
 
 
@@ -739,10 +724,27 @@ ion-icon {
 
 
 
+
+
+
+
+/* #pro_main::-webkit-scrollbar{
+    
+    display: none;
+} */
+/* body::-webkit-scrollbar{
+    
+    display: none !important;
+} */
+/* *::-webkit-scrollbar{
+    
+    display: none !important;
+} */
 
 
 main{
     
+    /* display: none !important; */
     background: hsla(235, 0%, 100%, 1);
     display: flex;
     align-items: center;
@@ -756,4 +758,8 @@ main{
     min-height: 100vh;
     width: 90%;
 }
+
+
+/* ===========================   Never give up   ========================== */
+
                                                                                                                                                                         

@@ -6,13 +6,22 @@ let ion_icons = document.querySelectorAll('ion-icon');
 let ion_cross_icon = document.querySelectorAll('ion-icon[name=close-outline]')
 let original_attr;
 
+const close_toggler = document.querySelectorAll('.close-toggler');
 
-
-ion_cross_icon.forEach(op=>{
+close_toggler.forEach(op=>{
     op.addEventListener('click',()=>{
+        
+        op.classList.toggle('active');
         console.log('closo icon');
+        
     })
 })
+
+// ion_cross_icon.forEach(op=>{
+//     op.addEventListener('click',()=>{
+//         console.log('closo icon');
+//     })
+// })
 
 
 
