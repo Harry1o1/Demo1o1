@@ -7,7 +7,9 @@ const app = express(); //DECLARATION OF APP
 app.use(cors()); //USING CORS
 const port = process.env.PORT || 5000; //PORT FOR HOSTING
 const connectDb = require('./db/connect'); //MONGOOSE 1
-const DB = process.env.DATABASE; //ENV DATABASE URL
+
+let Mongodb_url_backup = `mongodb+srv://Emon:Emon123@cluster0.2i8jb.mongodb.net/Express?retryWrites=true&w=majority`;
+const DB = process.env.DATABASE || Mongodb_url_backup; //ENV DATABASE URL
 const UserSchema = require('./models/user'); //USER MODEL
 const Checklist1Schema = require('./models/checklist_commonday'); //USER MODEL
 
