@@ -7,6 +7,88 @@ let ion_cross_icon = document.querySelectorAll('ion-icon[name=close-outline]')
 let original_attr;
 
 const close_toggler = document.querySelectorAll('.close-toggler');
+let ripples = document.querySelectorAll('.ripples');
+
+// ripples.forEach(op=>{
+//     op.addEventListener('click',(e)=>{
+//         // let x,y;
+//         // x = e.clientX - e.target.offsetLeft;
+//         // y = e.clientY - e.target.offsetTop;
+//         //  x = e.clientX;
+//         //  y = e.clientY;
+//         // x = e.target.offsetLeft;
+//         // y = e.target.offsetTop;
+       
+//     //   console.log(e.target.clientX);
+//     //   console.log(e.offsetTop);
+//     //   console.log(e.clientX);
+//     //   x = e.clientX;
+//     //   y = e.clientY;
+//     //   x = e.pageX;
+//     //   y = e.pageY;
+       
+//     //   console.log(x,y);
+       
+//     //   if(e.type == 'touchstart' || e.type == 'touchmove' || e.type == 'touchend' || e.type == 'touchcancel'){
+//     //     let touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0];
+//     //         x = touch.pageX;
+//     //         y = touch.pageY;
+//     //         console.log('op1');
+            
+            
+//         // }else if (e.type == 'mousedown' || e.type == 'mouseup' || e.type == 'mousemove' || e.type == 'mouseover'|| e.type=='mouseout' || e.type=='mouseenter' || e.type=='mouseleave') {
+//         //     x = e.clientX;
+//         //     y = e.clientY;
+            
+//         //     console.log('op2');
+//         // }
+//         // x = e.clientX - e.target.offsetLeft;
+//         // y = e.clientY - e.target.offsetTop;
+//         let x = e.clientX - e.target.offsetLeft;
+//         let y = e.clientY - e.target.offsetTop;
+        
+        
+//         let ripple = document.createElement('span');
+//         ripple.classList.add('sprincles');
+        
+//         ripple.style.left = `${x}px`;
+//         ripple.style.top = `${y}px`;
+        
+//         console.log(x,y);
+//         // console.log(ripple.style.left);
+//         // console.log(ripple.style.top);
+        
+//         // console.log(x,y);
+//         // op.appendChild(ripple);
+        
+        
+//         setTimeout(()=>{
+//             // ripple.remove();
+//             console.log('op');
+//         },1000);
+//     })
+// })
+         ripples.forEach((button) => {
+           button.onclick = function(e){
+             let x = e.clientX - e.target.offsetLeft;
+             let y = e.clientY - e.target.offsetTop;
+             
+             
+             let ripple = document.createElement("span");
+                ripple.classList.add('sprincles');
+     
+             ripple.style.left = `${x}px`;
+             ripple.style.top = `${y}px`;
+             
+             this.appendChild(ripple);
+             setTimeout(function(){
+               ripple.remove();
+             }, 1000); // 1second = 1000ms
+           }
+         });
+
+
+
 
 close_toggler.forEach(op=>{
     op.addEventListener('click',()=>{
