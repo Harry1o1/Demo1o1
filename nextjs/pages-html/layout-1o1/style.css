@@ -72,7 +72,7 @@ body {
 @media(min-width:900px) {
     :root {
 
-        --pro-navbartop-grid: 1.3fr 4fr 0.2fr 3.8fr 0.2fr 4fr 1.3fr;
+        --pro-navbartop-grid: 1.3fr 4fr 0.1fr 4fr 0.1fr 4fr 1.3fr;
         /* --navbartop-height: 40rem !important; */
 
 
@@ -175,14 +175,14 @@ ion-icon {
     /* background: hsla(235, 0%, 99%, 1); */
     background: transparent;
     border: var(--border-color);
-    border-radius: 30px;
+    border-radius: 40px;
     column-gap: 7% !important;
     
     
-    min-height: 3rem;
+    height: 3.3rem !important;
     width: 100%;
     
-    padding: 1rem;
+    /* padding: 2rem; */
 }
 #search-container input{
 
@@ -209,13 +209,16 @@ ion-icon {
     -moz-border-radius: 50%;
     border-radius: 50%;
     
-    min-height: 3.3rem;
-    min-width: 3.3rem;
+    min-height: 3rem;
+    min-width: 3rem;
     
     /* padding: 1rem; */
 }
 
-
+.pntcc{
+    
+    /* padding: 3rem 0 !important; */
+}
 
 
 
@@ -696,7 +699,7 @@ ion-icon {
 }
 #hello_mode_friends,#hello_mode_friends-search{
     
-    /* display: block !important; */
+    display: block !important;
     
     min-height: 100vh;
     width: 360px;
@@ -844,9 +847,9 @@ ion-icon {
 }
 #pro_fryday_glow{
     
-    animation: friday-glow 15s linear infinite;
-    box-shadow: 100px 100px 170px 0px rgba(255, 17, 17, 1);
-    filter: drop-shadow(-6px -75px 63px #000000) !important;
+    animation: friday-glow 10s linear infinite;
+    /* box-shadow: 100px 100px 170px 0px rgba(255, 17, 17, 1); */
+    /* filter: drop-shadow(-6px -75px 63px #000000) !important; */
     background: linear-gradient(to right, hsla(208, 100%, 50%, 1), hsla(174, 100%, 50%, 1));
     /* background: rgba(242, 246, 248, 1); */
     /* background: -moz-linear-gradient(left, rgba(242, 246, 248, 1) 0%, rgba(0, 153, 255, 1) 50%, rgba(181,198,208,1) 51%, rgba(224, 239, 249, 1) 100%); */
@@ -869,10 +872,10 @@ ion-icon {
     
     /* animation: friday-glow 10s linear infinite; */
     background: linear-gradient(to right, hsla(208, 100%, 50%, 1), hsla(174, 100%, 50%, 1));
-    filter: blur(200px);
+    filter: blur(30px);
     /* filter: drop-shadow(-6px -75px 9px #0015FF); */   
     /* filter: drop-shadow(-10% -20px 40px #59FF00); */    
-    filter: drop-shadow( 90px -20px 40px #59FF00);    
+    /* filter: drop-shadow( 90px -30px 25px #000000); */    
     
     content: "";
     position: absolute;
@@ -887,9 +890,9 @@ ion-icon {
     
     /* animation: friday-glow 10s linear infinite; */
     background: linear-gradient(to right, hsla(208, 100%, 50%, 1), hsla(174, 100%, 50%, 1));
-    filter: blur(200px);
+    filter: blur(30px);
     /* filter: drop-shadow(-6px -75px 63px linear-gradient(to right, hsla(208, 100%, 50%, 1), hsla(174, 100%, 50%, 1))) !important; */
-    filter: drop-shadow( 90px -15px 40px #59FF00);    
+    /* filter: drop-shadow( 90px -15px 25px #000000); */    
     
     content: "";
     position: absolute;
@@ -989,48 +992,13 @@ main{
 
 
 
-.ripples{
-    
-    /* background: red !important; */
-    overflow: hidden;
-}
-@keyframes ripples{
-    
-    0%{
-        opacity: 0.5;
-        width: 0;
-        height: 0;
-    }
-    100%{
-        
-        opacity: 0;
-        width: 500px;
-        height: 5000px;
-        
-    }
-    
-}
-.sprincles{
-    
-    background: #FFFFFF;
-    animation: ripples 1.5s linear infinite;
-    /* -webkit-border-radius: 50%; */
-    /* -moz-border-radius: 50%; */
-    border-radius: 50%;
-    position: absolute !important;
-    
-    /* top: 50px !important; */
-    /* left: 50px !important; */
-    
-    /* transform: translate(-50%,-50%); */
-    
-    
-}
-
 #hello_mode_friends-search{
     
     /* display: block !important; */
+    display: none !important;
     background: hsla(235, 0%, 100%, 1);
+    overflow-x: hidden;
+    overflow-y: auto;
     
     position: fixed;
     right: 0;
@@ -1043,39 +1011,53 @@ main{
 }
 #hello-mode-top{
     
-    background: #E9FFE0;
+    background: #FFFFFF;
     display: flex;
     /* align-items: center; */
     /* justify-content: center; */
     flex-direction: column;
+    
     /* row-gap: 30px; */
-    height: 9rem;
+    height: 10rem;
     width: 100%;
 }
 #segments{
     
     /* background: #AEFF8C; */
+    border-bottom: var(--border-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
     
-    height: 4rem;
+    height: 5rem;
     width: 100%;
     
     padding: 0 3rem !important;
+    
 }
-#search-container{
+#search-big-container{
+    
+    /* background: #4AFF00; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    min-height: 5rem;
+    width: 100%;
+}
+
+#search-big-container #search-container{
     
     
-    width: 90%;
-    height: 4rem;
+    width: 80% !important;
+    height: 3.3rem !important;
     
-    margin-inline: auto !important;
+    /* margin-inline: auto !important; */
 }
 #hello_mode_friends{
     
-    background: #8AFFB3;
+    background: #FFFFFF;
     display: flex;
     flex-direction: column;
     row-gap: 2px;
@@ -1089,18 +1071,20 @@ main{
     width: 100%;
     
     /* padding-top: 1rem !important; */
-    padding-bottom: 30rem !important;
+    padding-bottom: 5rem !important;
 }
 #hello_mode_friends li{
     
-    background: #E9FFE0;
+    background: var(--white-best-bg);
+    /* border-bottom: var(--border-color); */
+    border-bottom: 0.5px solid #383838;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     
     min-width: 100% !important;
-    min-height: 5rem;
+    min-height: 7rem;
 }
 #hello_mode_friends-search img{
     
@@ -1134,6 +1118,66 @@ main{
 #teamcode h1{
     color: #FFFFFF !important;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+#ripple-test{
+    
+    background: hsla(236, 0%, 0%, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 300px;
+    width: 70%;
+}    
+
+
+
+
+.ripples{
+    
+    /* background: red !important; */
+    overflow: hidden;
+}
+@keyframes ripples{
+    
+    0%{
+        opacity: 0.5;
+        width: 0;
+        height: 0;
+    }
+    100%{
+        
+        opacity: 0;
+        width: 100px;
+        height: 1000px;
+        
+    }
+    
+}
+.sprincles{
+    
+    background: #FFFFFF;
+    animation: ripples 1.5s linear infinite;
+    border-radius: 50%;
+    /* position: absolute !important; */
+    
+    position: absolute;
+    transform: translate(-50%,-50%) !important;
+    
+    
+}
+
 /* ===========================   Never give up   ========================== */
 
                                                                                                                                                                         

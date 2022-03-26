@@ -9,6 +9,43 @@ let original_attr;
 const close_toggler = document.querySelectorAll('.close-toggler');
 let ripples = document.querySelectorAll('.ripples');
 
+
+
+
+ripples.forEach(op=>{
+    op.onclick=function(e){
+        
+        // let x,y;
+        let x = e.clientX - e.target.offsetLeft;
+        let y = e.clientY - e.target.offsetTop;
+        
+        // y = e.clientY - e.target.offsetTop;
+        
+       
+        
+        let ripple = document.createElement('span');
+        ripple.classList.add('sprincles');
+        
+        ripple.style.left = `${x}px`;
+        ripple.style.top = `${y}px`;
+        
+        
+        this.appendChild(ripple);
+        console.log('p');
+        console.table(x,y);
+        
+        
+        setTimeout(()=>{
+            
+            ripple.remove();
+            console.log('op');
+            
+        },1000);
+        
+        console.log('D');
+    }
+})
+
 // ripples.forEach(op=>{
 //     op.addEventListener('click',(e)=>{
 //         // let x,y;
@@ -68,24 +105,24 @@ let ripples = document.querySelectorAll('.ripples');
 //         },1000);
 //     })
 // })
-         ripples.forEach((button) => {
-           button.onclick = function(e){
-             let x = e.clientX - e.target.offsetLeft;
-             let y = e.clientY - e.target.offsetTop;
+        //  ripples.forEach((button) => {
+        //   button.onclick = function(e){
+        //      let x = e.clientX - e.target.offsetLeft;
+        //      let y = e.clientY - e.target.offsetTop;
              
              
-             let ripple = document.createElement("span");
-                ripple.classList.add('sprincles');
+        //      let ripple = document.createElement("span");
+        //         ripple.classList.add('sprincles');
      
-             ripple.style.left = `${x}px`;
-             ripple.style.top = `${y}px`;
+        //      ripple.style.left = `${x}px`;
+        //      ripple.style.top = `${y}px`;
              
-             this.appendChild(ripple);
-             setTimeout(function(){
-               ripple.remove();
-             }, 1000); // 1second = 1000ms
-           }
-         });
+        //      this.appendChild(ripple);
+        //      setTimeout(function(){
+        //       ripple.remove();
+        //      }, 1000); // 1second = 1000ms
+        //   }
+        //  });
 
 
 
