@@ -1049,10 +1049,6 @@ main{
         /* background: #3849FF; */
         display: grid;
         grid-template-columns: 1fr 50px 1fr;
-        /* display: flex; */
-        /* align-items: center; */
-        /* justify-content: center; */
-        /* column-gap: 5px; */
         
         height: 20px;
         width: 300px;
@@ -1287,98 +1283,98 @@ main{
         
     }
     #hello-mode-main-container{
+        
+        /* background: red; */
+        overflow-x: auto;
+        overflow-y: hidden;
+        display: flex;
+        /* column-gap: 35px; */
+        /* row-gap: 20px; */
+        /* align-items: center; */
+        /* justify-content: center; */
+        flex-direction: row !important;
+        
+        
+        width: 360px;
+        /* height: 90rem; */
+        min-height: 75px;
+        height: 75px;
+        
+        padding: 0 !important;
+        margin: 0 !important;
+        
+        /* padding-top: 4.5rem !important; */
+        /* padding-bottom: 35rem !important; */
+        
+        z-index: 0 !important;
+    }
+    #hello-mode-main-container li{
+        
+        height: 75px !important;
+        min-width: 55px;
+    }
+    #hello-mode-crud{
+        
+        /* background: #B1B7FF; */
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        column-gap: 7px;
+        
+        min-width: 120px !important;
+        width: 120px !important;
+        height: 75px !important;
+        min-height: 75px !important;
+        
+        padding: 0 !important;
+        margin: 0 !important;
+        
+        margin-left: 5px !important;
+    }
+    #hello-mode-kushbhi,#hello-mode-add{
+        
+        height: 50px;
+        width: 50px;
+        
+        
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    #hello-mode-analatic{
+        
+        display: none !important;
+    }
     
-    /* background: red; */
-    overflow-x: auto;
-    overflow-y: hidden;
-    display: flex;
-    /* column-gap: 35px; */
-    /* row-gap: 20px; */
-    /* align-items: center; */
-    /* justify-content: center; */
-    flex-direction: row !important;
     
     
-    width: 360px;
-    /* height: 90rem; */
-    min-height: 75px;
-    height: 75px;
-    
-    padding: 0 !important;
-    margin: 0 !important;
-    
-    /* padding-top: 4.5rem !important; */
-    /* padding-bottom: 35rem !important; */
-    
-    z-index: 0 !important;
-}
-#hello-mode-main-container li{
-    
-    height: 75px !important;
-    min-width: 55px;
-}
-#hello-mode-crud{
-    
-    /* background: #B1B7FF; */
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    column-gap: 7px;
-    
-    min-width: 120px !important;
-    width: 120px !important;
-    height: 75px !important;
-    min-height: 75px !important;
-    
-    padding: 0 !important;
-    margin: 0 !important;
-    
-    margin-left: 5px !important;
-}
-#hello-mode-kushbhi,#hello-mode-add{
-    
-    height: 50px;
-    width: 50px;
     
     
-    padding: 0 !important;
-    margin: 0 !important;
-}
-#hello-mode-analatic{
     
-    display: none !important;
-}
-
-
-
-
-
-
-
-
-
-
-
-.mb_navbartop2_show{
     
-    display: block !important;
-}
-body.mb_navbartop2_toolbar {
     
-    display: block !important;
-}
-
-
-body #search-container.show{
     
-    display: block !important;
-    z-index: 50000 !important;
-    /* background: red; */
-}
-#search-container.hide,youtube_ai_nav-container.hide{
-    /* background: red; */
-    display: none !important;
-}
+    
+    
+    .mb_navbartop2_show{
+        
+        display: block !important;
+    }
+    body.mb_navbartop2_toolbar {
+        
+        display: block !important;
+    }
+    
+    
+    body #search-container.show{
+        
+        display: block !important;
+        z-index: 50000 !important;
+        /* background: red; */
+    }
+    #search-container.hide,youtube_ai_nav-container.hide{
+        /* background: red; */
+        display: none !important;
+    }
 
 
 
@@ -1403,8 +1399,9 @@ body #search-container.show{
     background: #FFDFDF;
     min-height: 50px;
     min-width: 50px;
-    position: relative !important;
     overflow: hidden !important;
+    
+    position: relative !important;
     
 }
 
@@ -1446,8 +1443,6 @@ body #search-container.show{
     
 } */
 /* .pntcc{
-    
-    
 } */
 /* #search-container{
     
