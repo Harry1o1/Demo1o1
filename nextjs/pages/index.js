@@ -34,14 +34,20 @@ import { useMoralis } from "react-moralis";
     console.log(user);
   }
 
+
+
+
+export default function Home() {
+    
   useEffect(() => {
     if (!isWeb3Enabled && isAuthenticated) {
       enableWeb3({ provider: "walletconnect", chainId: 56 });
       console.log("web3 activated");
     }
   }, [isWeb3Enabled, isAuthenticated, enableWeb3]);
-
-
+  
+  
+  
 if (window === 'undefiend') {
   document.addEventListener("visibilitychange", () => {
     if (document.visibilityState === "hidden") {
@@ -51,7 +57,8 @@ if (window === 'undefiend') {
     
 }
 
-export default function Home() {
+
+    
   return (
     <>  
     <motion.a
