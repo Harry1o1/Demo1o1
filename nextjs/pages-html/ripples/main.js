@@ -3,14 +3,16 @@ let ripples = document.querySelectorAll('.ripple');
 let r = document.querySelector(':root');
 
 
-ripples.forEach(ripples=>{
-    ripples.addEventListener('click',(e)=>{
+ripples.forEach((ripples)=>{
+    ripples.onclick = function(e){
+        e.preventDefault(); // preventing form submitting
+        
         // console.log('op');
         let ripple_height = ripples.clientHeight;
         let ripple_width = ripples.clientWidth;
         
-        let ripple_total_height = ripple_height * 4.5;
-        let ripple_total_width = ripple_width * 4.5;
+        let ripple_total_height = ripple_height * 3;
+        let ripple_total_width = ripple_width * 3;
         // console.log(ripple_width);
         // console.log(ripple_height);
         
@@ -27,12 +29,14 @@ ripples.forEach(ripples=>{
         ripple.style.top = `${y}px`;
         
         
-        console.log(ripples);
+        // console.log(ripples);
         // ripples.classList.add('Gotha');
-        ripples.appendChild(ripple);
+        this.appendChild(ripple);
+        
         setTimeout(function() {
             ripple.remove();
         }, 1000); // 1second = 1000ms
         
-    })
+    }
+    
 })
