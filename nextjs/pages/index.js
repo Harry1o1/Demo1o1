@@ -7,6 +7,50 @@ import { motion } from 'framer-motion';
 
 
 
+// ---------- APP -------------
+  const {
+    authenticate,
+    isWeb3Enabled,
+    isAuthenticated,
+    user,
+    enableWeb3,
+    Moralis,
+  } = useMoralis();
+
+  async function authWalletConnect() {
+    const user = authenticate({
+      provider: "walletconnect",
+      chainId: 56,
+      // mobileLinks: [
+      //   "metamask",
+      //   "trust",
+      //   "rainbow",
+      //   "argent",
+      //   "imtoken",
+      //   "pillar",
+      // ],
+      signingMessage: "Welcome!",
+    });
+    console.log(user);
+  }
+
+  useEffect(() => {
+    if (!isWeb3Enabled && isAuthenticated) {
+      enableWeb3({ provider: "walletconnect", chainId: 56 });
+      console.log("web3 activated");
+    }
+  }, [isWeb3Enabled, isAuthenticated, enableWeb3]);
+
+
+if (window === 'undefiend') {
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "hidden") {
+      window.localStorage.removeItem("WALLETCONNECT_DEEPLINK_CHOICE");
+    }
+  });
+    
+}
+
 export default function Home() {
   return (
     <>  
@@ -42,8 +86,14 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+      
+        <h1 className={styles.title} onClick={() => authWalletConnect()}>
+         login with Wallet-connect<a href="https://nextjs.org">Next.js!</a>
+        </h1>
+        <h1 
+        className={styles.title}
+        onClick={() => authenticate({ signingMessage: "Hello youtube" })}>
+        Login with Metamask<a href="https://nextjs.org">Next.js!</a>
         </h1>
 
         <p className={styles.description}>
