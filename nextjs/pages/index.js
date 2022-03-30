@@ -15,7 +15,6 @@ export default function Intro_page(){
   return (
     <>
         
-        <div className="overlay"></div>
         
           <nav id="pro_navbartop_container">
             <ul id="pnt-ul">
@@ -72,7 +71,10 @@ export default function Intro_page(){
               <li className="pnt-li" id="pnt-li5">
                 <div id="pnt-it5" className="pnt-it">
                   <ion-icon name="sunny-outline" />
-                  {/* <ion-icon name="search-outline"></ion-icon> */}
+                  {/* <ion-icon name="search-outline"></ion-icon> 
+                          <div className="overlay"></div>
+
+                  */}
                   <ion-icon name="moon-outline" />
                 </div>
               </li>
@@ -130,7 +132,7 @@ export default function Intro_page(){
       />
 
       <Script
-        src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/globals/main1o1.js"
+        src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/globals/main1o2.js"
         strategy="beforeInteractive"
       />
 
