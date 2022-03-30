@@ -15,6 +15,7 @@ export default function Intro_page(){
   return (
     <>
         
+        <div class="overlay"></div>
         
           <nav id="pro_navbartop_container">
             <ul id="pnt-ul">
@@ -86,13 +87,13 @@ export default function Intro_page(){
                     {/* <ion-icon name="moon-outline"></ion-icon> */}
                   </div>
                   <div id="metamask_container" className="btn_login_metamask">
-                    <Image src="/public/metamask.png" alt="Metamask" height={48} width={48} />
+                    <Image src="/metamask.png" alt="Metamask" height={48} width={48} />
                     <div className="login-text">
                       Metamask
                     </div>
                   </div>
                   <div id="wallet-connect_container" className="btn_login_wallet-connect">
-                    <Image src="/public/wallet-connect.svg" alt="Wallet-connect" height={48} width={48} />
+                    <Image src="/wallet-connect.svg" alt="Wallet-connect" height={48} width={48} />
                     <div className="login-text">
                       Wallet-connect
                     </div>
@@ -129,7 +130,7 @@ export default function Intro_page(){
       />
 
       <Script
-        src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/globals/main.js"
+        src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/globals/main1o2.js"
         strategy="beforeInteractive"
       />
 
@@ -147,7 +148,7 @@ export default function Intro_page(){
         <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
 
    
-        <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/globals/style1o1.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/globals/style1o2.css" rel="stylesheet" />
 
     
         

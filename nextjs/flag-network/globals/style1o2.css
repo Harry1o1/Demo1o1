@@ -3,7 +3,7 @@
 @import url(./animations.css);
 @import url(./login.css);
 @import url(./variables.css);
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap'); */
 
 *{
     color: var(--icon-color) !important;
@@ -12,7 +12,7 @@
     box-sizing: border-box;
     text-decoration: none !important;
     list-style: none;
-    font-family: 'Playfair Display', serif;    
+    /* font-family: 'Playfair Display', serif; */    
 }
 html{
     
