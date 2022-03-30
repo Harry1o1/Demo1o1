@@ -107,7 +107,7 @@ export default function Intro_page(){
           {/* <h1>Main</h1> */}
           <main>
             <h1 className="gradient-text">
-              Hello from flag-network!
+              Hello from Cripto-Dragon!
             </h1>
           </main>
 
