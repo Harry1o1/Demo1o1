@@ -84,7 +84,7 @@ export default function Intro_page(){
                 </div>
                 <div id="login_wrapper">
                   <div id="login_header">
-                    <h5>Login to Flag-Network</h5>
+                    <h5>Login to Gung-Gang</h5>
                     {/* <ion-icon name="close-outline"></ion-icon> */}
                     {/* <ion-icon name="moon-outline"></ion-icon> */}
                   </div>
