@@ -21,7 +21,7 @@ ion-icon[name="close-outline"],ion-icon[name="moon-outline"]{
     
     padding: 0 5%;
     
-    z-index: 1;
+    z-index: 10;
 }
 #pro_navbartop_container ul{
     
