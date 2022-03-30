@@ -15,7 +15,7 @@ export default function Intro_page(){
   return (
     <>
         
-        <div class="overlay"></div>
+        <div className="overlay"></div>
         
           <nav id="pro_navbartop_container">
             <ul id="pnt-ul">
