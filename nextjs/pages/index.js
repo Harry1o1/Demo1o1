@@ -148,7 +148,7 @@ export default function Intro_page(){
         <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
 
    
-        <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/globals/style1o1.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/globals/style1o2.css" rel="stylesheet" />
 
     
         

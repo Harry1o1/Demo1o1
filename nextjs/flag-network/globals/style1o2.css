@@ -67,7 +67,7 @@ main{
     z-index: 5;
 }
 .overlay.active{
-    display: block;
+    /* display: block; */
 }
 
 
