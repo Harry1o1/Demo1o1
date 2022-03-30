@@ -3,6 +3,7 @@
 @import url(./animations.css);
 @import url(./login.css);
 @import url(./variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap');
 
 *{
     color: var(--icon-color) !important;
@@ -11,6 +12,7 @@
     box-sizing: border-box;
     text-decoration: none !important;
     list-style: none;
+    font-family: 'Playfair Display', serif;    
 }
 html{
     
@@ -26,6 +28,8 @@ ul,li{
     margin: 0 !important;
     padding: 0 !important;
 }
+
+
 main{
     
     background: var(--body-bg);
@@ -37,4 +41,28 @@ main{
     left: 0;
     
     z-index: 0;
+}
+
+
+
+@media(min-width:900px){
+    
+    main{
+        
+        min-height: 150vh;
+        
+        left: 70px;
+        
+    }
+    /* main h1{
+        
+        background: var(--gradient-1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    } */
+    .gradient-text {
+        background: var(--gradient-1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 }

@@ -6,7 +6,7 @@
     --primary-bg-1o1:hsla(217, 0%, 96%, 1);
     --sidebar-bg:hsla(217, 0%, 100%, 1);
     --best-bg:hsla(217, 0%, 96%, 1);
-    
+    /* --modal-bg: #F4F7FF; */
     
     --border-color: 1px solid #EAEAEA;
     --border-color-1o1: 1px solid #FFFFFF;
@@ -21,6 +21,9 @@ body.dark{
     --primary-bg-1o1:hsla(217, 5%, 9%, 1);
     --sidebar-bg:hsla(217, 0%, 0%, 1);
     --best-bg:hsla(217, 64%, 10%, 1);
+    --best-bg:#0F172A;
+    /* --modal-bg: #0F172A; */
+    
     
     --border-color: 1px solid hsla(0, 0%, 9%, 1);
     --border-color-1o1: 1px solid #000000;

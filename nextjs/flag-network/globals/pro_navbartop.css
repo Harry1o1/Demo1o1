@@ -19,7 +19,7 @@ ion-icon[name="close-outline"],ion-icon[name="moon-outline"]{
     top: 0;
     left: 0;
     
-    padding: 0 1rem;
+    padding: 0 5%;
     
     z-index: 1;
 }
@@ -112,3 +112,11 @@ ion-icon[name="close-outline"],ion-icon[name="moon-outline"]{
 
 
 
+@media(min-width:900px){
+    
+    /* #pro_navbartop_container{
+        
+        padding: 0 100px;
+    } */    
+
+}

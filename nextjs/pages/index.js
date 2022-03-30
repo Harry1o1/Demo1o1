@@ -1,158 +1,164 @@
+import Link from 'next/link'
+import Script from 'next/script'
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import { motion } from 'framer-motion';
-import { useMoralis } from "react-moralis";
 
 
 
 
-// ---------- APP -------------
-  const {
-    authenticate,
-    isWeb3Enabled,
-    isAuthenticated,
-    user,
-    enableWeb3,
-    Moralis,
-  } = useMoralis();
-
-  async function authWalletConnect() {
-    const user = authenticate({
-      provider: "walletconnect",
-      chainId: 56,
-      // mobileLinks: [
-      //   "metamask",
-      //   "trust",
-      //   "rainbow",
-      //   "argent",
-      //   "imtoken",
-      //   "pillar",
-      // ],
-      signingMessage: "Welcome!",
-    });
-    console.log(user);
-  }
 
 
 
 
-export default function Home() {
-    
-  useEffect(() => {
-    if (!isWeb3Enabled && isAuthenticated) {
-      enableWeb3({ provider: "walletconnect", chainId: 56 });
-      console.log("web3 activated");
-    }
-  }, [isWeb3Enabled, isAuthenticated, enableWeb3]);
-  
-  
-  
-if (window === 'undefiend') {
-  document.addEventListener("visibilitychange", () => {
-    if (document.visibilityState === "hidden") {
-      window.localStorage.removeItem("WALLETCONNECT_DEEPLINK_CHOICE");
-    }
-  });
-    
-}
 
-
-    
+export default function Intro_page(){
   return (
-    <>  
-    <motion.a
-  whileFocus={{ scale: 1.2 }}
-  href="#"
-/>
-    <motion.div initial="hidden" animate="visible" variants={{
-  hidden: {
-    scale: .8,
-    opacity: 0
-  },
-  visible: {
-    scale: 1,
-    opacity: 1,
-    transition: {
-      delay: .4
-    }
-  },
-}}>
-  <h1 className="title">
-   Hello framermotion!
-  </h1>
-</motion.div>
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <div className={styles.container}>
+    <>
+        
+        
+          <nav id="pro_navbartop_container">
+            <ul id="pnt-ul">
+              <li className="pnt-li" id="pnt-li1">
+                <div id="pnt-it1" className="pnt-it">
+                  <ion-icon name="menu-outline" id="pnt-in" />
+                  <ion-icon name="close-outline" id="pnt-in" />
+                </div>
+                <div id="small-sidebar" className="close">
+                  <ul id="ss-ul">
+                    <li className="ss-li" id="ss-li1">
+                      <ion-icon name="menu-outline" className="ss-ic" />
+                      <a href="#">item1</a>
+                    </li>
+                    <li className="ss-li" id="ss-li2">
+                      <ion-icon name="menu-outline" className="ss-ic" />
+                      <a href="#">item2</a>
+                    </li>
+                    <li className="ss-li" id="ss-li3">
+                      <ion-icon name="menu-outline" className="ss-ic" />
+                      <a href="#">item3</a>
+                    </li>
+                    <li className="ss-li" id="ss-li4">
+                      <ion-icon name="menu-outline" className="ss-ic" />
+                      <a href="#">item4</a>
+                    </li>
+                    <li className="ss-li" id="ss-li5">
+                      <ion-icon name="menu-outline" className="ss-ic" />
+                      <a href="#">item5</a>
+                    </li>
+                    <li className="ss-li" id="ss-li6">
+                      <ion-icon name="menu-outline" className="ss-ic" />
+                      <a href="#">item6</a>
+                    </li>
+                    <li className="ss-li" id="ss-li7">
+                      <ion-icon name="menu-outline" className="ss-ic" />
+                      <a href="#">item7</a>
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li className="pnt-li" id="pnt-li2">
+                <div id="pnt-it2" className="pnt-it">
+                  <ion-icon name="logo-google" />
+                </div>
+                {/* <img srcset="../public/Google.png" src="../public/Google.png" alt="../public/Google.png"> */}
+              </li>
+              <li id="pnt_divider" />
+              <li className="pnt-li" id="pnt-li4">
+                <div id="pnt-it4" className="pnt-it">
+                  <ion-icon name="search-outline" />
+                </div>
+              </li>
+              <li className="pnt-li" id="pnt-li5">
+                <div id="pnt-it5" className="pnt-it">
+                  <ion-icon name="sunny-outline" />
+                  {/* <ion-icon name="search-outline"></ion-icon> */}
+                  <ion-icon name="moon-outline" />
+                </div>
+              </li>
+              <li className="pnt-li" id="pnt-li6">
+                <div className="btn btn-white" id="login-toggler">
+                  connect
+                </div>
+                <div id="login_wrapper">
+                  <div id="login_header">
+                    <h5>Login to Flag-Network</h5>
+                    {/* <ion-icon name="close-outline"></ion-icon> */}
+                    {/* <ion-icon name="moon-outline"></ion-icon> */}
+                  </div>
+                  <div id="metamask_container" className="btn_login_metamask">
+                    <img src="/public/metamask.png" alt="Metamask" height={48} width={48} />
+                    <div className="login-text">
+                      Metamask
+                    </div>
+                  </div>
+                  <div id="wallet-connect_container" className="btn_login_wallet-connect">
+                    <img src="/public/wallet-connect.svg" alt="Wallet-connect" height={48} width={48} />
+                    <div className="login-text">
+                      Wallet-connect
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </nav>
+          {/* <h1>Main</h1> */}
+          <main>
+            <h1 className="gradient-text">
+              Hello from flag-network!
+            </h1>
+          </main>
+
+
+
+      <Script
+        type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+        strategy="beforeInteractive"
+      />
+
+      <Script
+        nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+        strategy="beforeInteractive"
+      />
+      <Script
+        src="https://unpkg.com/moralis/dist/moralis.js"
+        strategy="beforeInteractive"
+      />
+      <Script
+        src="https://github.com/WalletConnect/walletconnect-monorepo/releases/download/1.7.1/web3-provider.min.js"
+        strategy="beforeInteractive"
+      />
+
+      <Script
+        src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/globals/main.js"
+        strategy="beforeInteractive"
+      />
+
+
+
+
       <Head>
-        <title>Create Next App</title>
+        <title>LetWorkBeDone</title>
         <meta name="description" content="Generated by create next app" />
-        <link rel="icon" href="/favicon.ico" />
+
+        
+  
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" />
+    
+  
+        <link rel="stylesheet" href="https://unpkg.com/open-props"/>
+        <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
+
+   
+        <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/globals/style.css" rel="stylesheet" />
+
+    
+        
+        
+        
+
       </Head>
 
-      <main className={styles.main}>
-      
-        <h1 className={styles.title} onClick={() => authWalletConnect()}>
-         login with Wallet-connect<a href="https://nextjs.org">Next.js!</a>
-        </h1>
-        <h1 
-        className={styles.title}
-        onClick={() => authenticate({ signingMessage: "Hello youtube" })}>
-        Login with Metamask<a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
-      </main>
-
-      <footer className={styles.footer}>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <span className={styles.logo}>
-            <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-          </span>
-        </a>
-      </footer>
-    </div>
-    
     </>
-  )
-}
+  );
+};
+
