@@ -1,6 +1,6 @@
 @import url(./variables.css);
 
-ion-icon[name="close-outline"],ion-icon[name="moon-outline"]{
+#pnt-it1 ion-icon[name="close-outline"],#pnt-it5 ion-icon[name="moon-outline"]{
     display: none;
 }
 
@@ -21,7 +21,7 @@ ion-icon[name="close-outline"],ion-icon[name="moon-outline"]{
     
     padding: 0 5%;
     
-    z-index: 10;
+    z-index: 51;
 }
 #pro_navbartop_container ul{
     
@@ -58,7 +58,7 @@ ion-icon[name="close-outline"],ion-icon[name="moon-outline"]{
     align-items: center;
     justify-content: left;
 } */
-#pnt-it1,#pnt-it4,#pnt-it5{
+#pnt-it1,#pnt-it4,#pnt-it5,#login_header .icon{
     
     /* background: #EEF0FF; */
     background: var(--primary-bg);
@@ -74,7 +74,7 @@ ion-icon[name="close-outline"],ion-icon[name="moon-outline"]{
     
     height: 40px;
     width: 40px;
-    transition: all 0.5s linear;
+    /* transition: all 0.5s linear; */
 
     /* padding: 1rem !important; */
 }

@@ -4,7 +4,7 @@ let small_sidebar = document.querySelector('#small-sidebar');
 let light = document.querySelector('#pnt-it5');
 let login_toggler = document.querySelector('#login-toggler');
 let login_container = document.querySelector('#login_wrapper');
-// let overlay = document.querySelector('.overlay');
+let overlay = document.querySelector('.overlay');
 
 /* Moralis init code */
 const serverUrl = "https://a2pko6dyqtwq.usemoralis.com:2053/server";
@@ -81,7 +81,7 @@ light.addEventListener('click',()=>{
 login_toggler.addEventListener('click',()=>{
     // console.log('op');
     login_container.classList.toggle('active');
-    // overlay.classList.toggle('active');
+    overlay.classList.toggle('active');
     
     if (login_container.classList.contains('active')) {
         login_toggler.innerText='cancel';
