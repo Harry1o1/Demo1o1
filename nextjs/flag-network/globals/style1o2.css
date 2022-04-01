@@ -1,8 +1,9 @@
 @import url(./pro_navbartop.css);
 @import url(./small-sidebar.css);
 @import url(./animations.css);
-@import url(./login.css);
 @import url(./variables.css);
+@import url(./login.css);
+
 /* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600&display=swap'); */
 
 *{
@@ -33,12 +34,14 @@ ul,li,h1,h2,h3,h5,h5,h6{
 main{
     
     background: var(--body-bg);
-    min-height: 100vh;
+    min-height: 300vh;
     width: 100%;
     
     position: relative;
-    top: 50px;
+    top: 0;
     left: 0;
+    
+    padding-top: 80px !important;
     
     z-index: 0;
 }

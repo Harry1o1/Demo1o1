@@ -22,14 +22,9 @@
 
 }
 
-#login_wrapper.active{
-    
-    display: flex !important;
-}
 #login_wrapper{
     
     display: none !important;
-    overflow: hidden;
     /* animation: menuPopup 0.8s ease forwards; */
     background: var(--primary1o1-bg);
     border-radius: 15px;
@@ -44,15 +39,21 @@
     height: 200px;
     width: 330px;
     
-    position: fixed;
-    top: 50% !important;
-    left: 50% !important;
-    transform: translate(-50%,-50%) !important;
-    
     
     z-index: 100 !important;
     
 }
+#login_wrapper.active{
+    
+    display: flex !important;
+    position: fixed !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%,-50%) !important;
+   
+    
+}
+
 #wallet-connect_container,#metamask_container{
     
     /* background: #F4F5FF; */

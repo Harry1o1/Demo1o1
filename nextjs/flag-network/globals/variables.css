@@ -1,7 +1,8 @@
 :root{
     
     --icon-color:hsla(217, 0%, 0%, 1);
-    --body-bg:hsla(0, 0%, 96%, 1);
+    --glass-bg:rgba(255, 255, 255, 0.3);
+    --body-bg:hsla(0, 0%, 100%, 1);
     --primary-bg:hsla(233, 100%, 97%, 1);
     --primary1o1-bg:hsla(0, 0%, 100%, 1);
     --sidebar-bg:hsla(217, 0%, 100%, 1);
@@ -15,6 +16,7 @@
 }
 body.dark{
     
+    --glass-bg:rgba(0, 0, 0, 0.26);
     --icon-color:hsla(217, 0%, 100%, 1);
     --body-bg: hsla(217, 0%, 0%, 1);
     --primary-bg:hsla(217, 9%, 9%, 1);
