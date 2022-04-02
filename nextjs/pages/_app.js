@@ -1,4 +1,4 @@
-import '../styles/globals.css'
+import '../flag-network/globals/style.css'
 import { MoralisProvider } from "react-moralis";
 
 

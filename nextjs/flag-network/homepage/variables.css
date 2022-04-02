@@ -12,6 +12,9 @@
     --border-color: 1px solid #EAEAEA;
     --border-color-1o1: 1px solid #EAEAEA;
     
+    
+    --homepage-bg:hsla(215, 0%, 100%, 1);
+    
 
 }
 body.dark{
@@ -29,6 +32,9 @@ body.dark{
     
     --border-color: 1px solid hsla(0, 0%, 9%, 1);
     --border-color-1o1: 1px solid #000000;
+    
+    
+    --homepage-bg:hsla(215, 0%, 0%, 1);
     
 }
 
