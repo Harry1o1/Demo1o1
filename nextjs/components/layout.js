@@ -4,6 +4,7 @@ import Footer from './footer';
 import Link from 'next/link'
 import Script from 'next/script'
 import Head from 'next/head'
+import Image from 'next/image'
 
 
 
@@ -200,13 +201,13 @@ export default function Layout({ children }) {
               {/* <ion-icon name="moon-outline"></ion-icon> */}
             </div>
             <div id="metamask_container" className="btn_login_metamask">
-              <Image src="../../public/metamask.png" alt="Metamask" height={48} width={48} />
+              <Image src="/metamask.png" alt="Metamask" height={48} width={48} />
               <div className="login-text">
                 Metamask
               </div>
             </div>
             <div id="wallet-connect_container" className="btn_login_wallet-connect">
-              <Image src="../../public/wallet-connect.svg" alt="Wallet-connect" height={48} width={48} />
+              <Image src="/wallet-connect.svg" alt="Wallet-connect" height={48} width={48} />
               <div className="login-text">
                 Wallet-connect
               </div>
