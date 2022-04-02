@@ -11,105 +11,109 @@ import Image from 'next/image'
 
 
 
-export default function Intro_page(){
+export default function Home_page(){
   return (
     <>
         
-        
-          <nav id="pro_navbartop_container">
-            <ul id="pnt-ul">
-              <li className="pnt-li" id="pnt-li1">
-                <div id="pnt-it1" className="pnt-it">
-                  <ion-icon name="menu-outline" id="pnt-in" />
-                  <ion-icon name="close-outline" id="pnt-in" />
-                </div>
-                <div id="small-sidebar" className="close">
-                  <ul id="ss-ul">
-                    <li className="ss-li" id="ss-li1">
-                      <ion-icon name="menu-outline" className="ss-ic" />
-                      <a href="#">item1</a>
-                    </li>
-                    <li className="ss-li" id="ss-li2">
-                      <ion-icon name="menu-outline" className="ss-ic" />
-                      <a href="#">item2</a>
-                    </li>
-                    <li className="ss-li" id="ss-li3">
-                      <ion-icon name="menu-outline" className="ss-ic" />
-                      <a href="#">item3</a>
-                    </li>
-                    <li className="ss-li" id="ss-li4">
-                      <ion-icon name="menu-outline" className="ss-ic" />
-                      <a href="#">item4</a>
-                    </li>
-                    <li className="ss-li" id="ss-li5">
-                      <ion-icon name="menu-outline" className="ss-ic" />
-                      <a href="#">item5</a>
-                    </li>
-                    <li className="ss-li" id="ss-li6">
-                      <ion-icon name="menu-outline" className="ss-ic" />
-                      <a href="#">item6</a>
-                    </li>
-                    <li className="ss-li" id="ss-li7">
-                      <ion-icon name="menu-outline" className="ss-ic" />
-                      <a href="#">item7</a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li className="pnt-li" id="pnt-li2">
-                <div id="pnt-it2" className="pnt-it">
-                  <ion-icon name="logo-google" />
-                </div>
-                {/* <img srcset="../public/Google.png" src="../public/Google.png" alt="../public/Google.png"> */}
-              </li>
-              <li id="pnt_divider" />
-              <li className="pnt-li" id="pnt-li4">
-                <div id="pnt-it4" className="pnt-it">
-                  <ion-icon name="search-outline" />
-                </div>
-              </li>
-              <li className="pnt-li" id="pnt-li5">
-                <div id="pnt-it5" className="pnt-it">
-                  <ion-icon name="sunny-outline" />
-                  {/* <ion-icon name="search-outline"></ion-icon> 
-                          <div className="overlay"></div>
+      
 
-                  */}
-                  <ion-icon name="moon-outline" />
+
+  
+            {/* <h1 class="gradient-text">
+             Hello from flag-network!
+             .img-containers*6>img[src="/fn-hp-sec1-$"][alt="Images" layout="responsive"]
+         </h1> */}
+            {/* <h1>I am footer</h1> */}
+            <div id="sec1" className="sec">
+              <div id="img-big-container1o1">
+                <div className="img-containers" id="img-container1"><img src="/fn-hp-sec1-1.png" alt="Images" layout="responsive" /></div>
+                <div className="img-containers" id="img-container2"><img src="/fn-hp-sec1-2.png" alt="Images" layout="responsive" /></div>
+                <div className="img-containers" id="img-container3"><img src="/fn-hp-sec1-3.png" alt="Images" layout="responsive" /></div>
+                <div className="img-containers" id="img-container4"><img src="/fn-hp-sec1-4.png" alt="Images" layout="responsive" /></div>
+                <div className="img-containers" id="img-container5"><img src="/fn-hp-sec1-5.png" alt="Images" layout="responsive" /></div>
+                <div className="img-containers" id="img-container6"><img src="/fn-hp-sec1-6.png" alt="Images" layout="responsive" /></div>
+              </div>
+              {/* <h1>Hello I am section1</h1> */}
+            </div>
+            <div id="sec2" className="sec">
+              {/* <h1>Showup</h1> */}
+              {/* <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam doloremque dicta pariatur, expedita laborum ea tenetur, enim magnam aspernatur eveniet aliquid, harum praesentium! Error ducimus quidem doloremque ipsa vitae, impedit!</h4> */}
+              {/* <h1>Hello I am section2</h1> */}
+              <div id="main-sec">
+                <h1>Dio op</h1>
+              </div>
+              <div className="main-contents-sc">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ducimus, quia possimus provident at eum. Neque laudantium ducimus necessitatibus, molestiae praesentium culpa consectetur a. Quis illo cumque, placeat corporis, dolorem nihil quod ut quaerat. Necessitatibus impedit officia, numquam, totam alias, accusantium, quidem nulla quis ullam explicabo mollitia assumenda soluta nemo.
+              </div>
+            </div>
+            <div id="sec3" className="sec">
+              <div className="main-sec">
+                <div id="header">
+                  <h1>Dio op</h1>
                 </div>
-              </li>
-              <li className="pnt-li" id="pnt-li6">
-                <div className="btn btn-white" id="login-toggler">
-                  connect
+                <div className="main-contents-sc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ducimus, quia possimus provident at eum. Neque laudantium ducimus necessitatibus, molestiae praesentium culpa consectetur a. Quis illo cumque, placeat corporis, dolorem nihil quod ut quaerat. Necessitatibus impedit officia, numquam, totam alias, accusantium, quidem nulla quis ullam explicabo mollitia assumenda soluta nemo.
                 </div>
-                <div id="login_wrapper">
-                  <div id="login_header">
-                    <h5>Login to Flag-Network</h5>
-                    {/* <ion-icon name="close-outline"></ion-icon> */}
-                    {/* <ion-icon name="moon-outline"></ion-icon> */}
-                  </div>
-                  <div id="metamask_container" className="btn_login_metamask">
-                    <Image src="/metamask.png" alt="Metamask" height={48} width={48} />
-                    <div className="login-text">
-                      Metamask
-                    </div>
-                  </div>
-                  <div id="wallet-connect_container" className="btn_login_wallet-connect">
-                    <Image src="/wallet-connect.svg" alt="Wallet-connect" height={48} width={48} />
-                    <div className="login-text">
-                      Wallet-connect
-                    </div>
-                  </div>
+              </div>
+              {/* <h1>Hello I am section3</h1> */}
+            </div>
+            <div id="sec4" className="sec">
+              {/* <h1>Hello I am section4</h1> */}
+              <div className="main-sec">
+                <div id="header">
+                  <h1>Dio op</h1>
                 </div>
-              </li>
-            </ul>
-          </nav>
-          {/* <h1>Main</h1> */}
-          <main>
-            <h1 className="gradient-text">
-              Hello from flag-network!
-            </h1>
-          </main>
+                <div className="main-contents-sc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ducimus, quia possimus provident at eum. Neque laudantium ducimus necessitatibus, molestiae praesentium culpa consectetur a. Quis illo cumque, placeat corporis, dolorem nihil quod ut quaerat. Necessitatibus impedit officia, numquam, totam alias, accusantium, quidem nulla quis ullam explicabo mollitia assumenda soluta nemo.
+                </div>
+              </div>
+            </div>
+            <div id="sec5" className="sec">
+              <div className="main-sec">
+                <div id="header">
+                  <h1>Dio op</h1>
+                </div>
+                <div className="main-contents-sc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ducimus, quia possimus provident at eum. Neque laudantium ducimus necessitatibus, molestiae praesentium culpa consectetur a. Quis illo cumque, placeat corporis, dolorem nihil quod ut quaerat. Necessitatibus impedit officia, numquam, totam alias, accusantium, quidem nulla quis ullam explicabo mollitia assumenda soluta nemo.
+                </div>
+              </div>
+              {/* <h1>Hello I am section5</h1> */}
+            </div>
+            <div id="sec6" className="sec">
+              <div className="main-sec">
+                <div id="header">
+                  <h1>Dio op</h1>
+                </div>
+                <div className="main-contents-sc">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum ducimus, quia possimus provident at eum. Neque laudantium ducimus necessitatibus, molestiae praesentium culpa consectetur a. Quis illo cumque, placeat corporis, dolorem nihil quod ut quaerat. Necessitatibus impedit officia, numquam, totam alias, accusantium, quidem nulla quis ullam explicabo mollitia assumenda soluta nemo.
+                </div>
+              </div>
+              {/* <h1>Hello I am section6</h1> */}
+            </div>
+            <div id="sec7" className="sec">
+              <h1>Hello I am section7</h1>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

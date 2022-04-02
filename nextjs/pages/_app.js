@@ -1,21 +1,30 @@
-import '../flag-network/globals/style.css'
+import '../flag-network/homepage/style.css'
 import { MoralisProvider } from "react-moralis";
+import Layout from '../components/layout'
 
 
 
 
-function MyApp({ Component, pageProps }) {
-    
-    
+
+
+
+export default function MyApp({ Component, pageProps }) {
     return (
         
-        
         <MoralisProvider serverUrl="https://a2pko6dyqtwq.usemoralis.com:2053/server" appId="D0r1DA19TTZvr6CiWdB3sjDDE0Y71EFasRNLP12a">
-            <Component {...pageProps} />
+            <Layout>
+                <Component {...pageProps} />
+           </Layout>
+           
+           
+           
         </MoralisProvider>
-       
+           
+        
     )
-  
 }
+
+
+
 
 export default MyApp
