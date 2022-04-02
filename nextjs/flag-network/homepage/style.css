@@ -73,10 +73,10 @@ main{
     /* top: 50px; */
     left: 0;
     
-    z-index: 50 !important;
+    z-index: 500 !important;
 }
 .overlay.active{
-    /* display: block; */
+    display: block;
 }
 
 

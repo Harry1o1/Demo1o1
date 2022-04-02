@@ -22,6 +22,8 @@ let st_tg5 = document.querySelector('#st-m5');
 let st_tg6 = document.querySelector('#st-m6');
 
 
+let login_close = document.querySelector('#login_header .icon');
+
 /* Moralis init code */
 const serverUrl = "https://a2pko6dyqtwq.usemoralis.com:2053/server";
 const appId = "D0r1DA19TTZvr6CiWdB3sjDDE0Y71EFasRNLP12a";
@@ -172,17 +174,40 @@ light.addEventListener('click', () => {
 })
 login_toggler.addEventListener('click', () => {
     // console.log('op');
-    login_container.classList.toggle('active');
-    overlay.classList.toggle('active');
+    login_container.classList.add('active');
+    overlay.classList.add('active');
+
+    // if (login_container.classList.contains('active')) {
+    //     login_toggler.innerText = 'cancel';
+        
+    //     console.log('hi')
+    // }
+    // else {
+
+    //     login_toggler.innerText = 'connect';
+
+    // }
+    
+    
+})
+
+
+
+login_close.addEventListener('click',()=>{
+    // console.log('kohug');
+    login_container.classList.remove('active');
+    overlay.classList.remove('active');
 
     if (login_container.classList.contains('active')) {
         login_toggler.innerText = 'cancel';
-
-        console.log('hi')
+        
+        // console.log('hi')
     }
     else {
 
         login_toggler.innerText = 'connect';
 
     }
+    
+    
 })
