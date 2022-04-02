@@ -19,6 +19,10 @@
     list-style: none;
     /* font-family: 'Playfair Display', serif; */    
 }
+::-webkit-scrollbar{
+    
+    display: none !important;
+}
 html{
     
     width: 100% !important;
