@@ -282,7 +282,7 @@ export default function Layout({ children }) {
                 </div>
               </ul>
               <ul id="pf-ul3">
-                <h1>What's new Events</h1>
+                <h1>Whats new Events</h1>
                 <div id="main-link3" className="main-links">
                   <li id="pf-li1" className="pf-li"><a href="#" className="pf-a"> Ido drop </a></li>
                   <li id="pf-li2" className="pf-li"><a href="#" className="pf-a"> Ido Events drop </a></li>
