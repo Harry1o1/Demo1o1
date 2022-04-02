@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Script from 'next/script'
 import Head from 'next/head'
-import img from 'next/img'
+// import img from 'next/img'
 
 
 
