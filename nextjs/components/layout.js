@@ -377,7 +377,7 @@ export default function Layout({ children }) {
       />
       
       <Script
-        src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/homepage/main.js"
+        src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/homepage/main1o5.js"
         strategy="beforeInteractive"
       />
       
