@@ -21,17 +21,17 @@ export default function Home_page(){
   
             {/* <h1 class="gradient-text">
              Hello from flag-network!
-             .img-containers*6>img[src="/fn-hp-sec1-$"][alt="Images" layout='fill']
+             .img-containers*6>img[src="../public/fn-hp-sec1-$"][alt="Images" ]
          </h1> */}
             {/* <h1>I am footer</h1> */}
             <div id="sec1" className="sec">
               <div id="img-big-container1o1">
-                <div className="img-containers" id="img-container1"><Image src="/fn-hp-sec1-1.png" alt="Images" layout='fill' /></div>
-                <div className="img-containers" id="img-container2"><Image src="/fn-hp-sec1-2.png" alt="Images" layout='fill' /></div>
-                <div className="img-containers" id="img-container3"><Image src="/fn-hp-sec1-3.png" alt="Images" layout='fill' /></div>
-                <div className="img-containers" id="img-container4"><Image src="/fn-hp-sec1-4.png" alt="Images" layout='fill' /></div>
-                <div className="img-containers" id="img-container5"><Image src="/fn-hp-sec1-5.png" alt="Images" layout='fill' /></div>
-                <div className="img-containers" id="img-container6"><Image src="/fn-hp-sec1-6.png" alt="Images" layout='fill' /></div>
+                <div className="img-containers" id="img-container1"><Image src="../public/fn-hp-sec1-1.png" alt="Images"  /></div>
+                <div className="img-containers" id="img-container2"><Image src="../public/fn-hp-sec1-2.png" alt="Images"  /></div>
+                <div className="img-containers" id="img-container3"><Image src="../public/fn-hp-sec1-3.png" alt="Images"  /></div>
+                <div className="img-containers" id="img-container4"><Image src="../public/fn-hp-sec1-4.png" alt="Images"  /></div>
+                <div className="img-containers" id="img-container5"><Image src="../public/fn-hp-sec1-5.png" alt="Images"  /></div>
+                <div className="img-containers" id="img-container6"><Image src="../public/fn-hp-sec1-6.png" alt="Images"  /></div>
               </div>
               {/* <h1>Hello I am section1</h1> */}
             </div>
