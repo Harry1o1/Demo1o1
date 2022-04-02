@@ -49,12 +49,18 @@ footer ul{
 }
 #main-link4 li,#main-link2 li{
     
-    /* background: red; */
     display: flex;
-    /* align-items: right; */
     justify-content: right;
     
 }
+#main-link1 li,#main-link3 li{
+    
+    display: flex;
+    /* align-items: center; */
+    justify-content: left;
+    
+}
+
 /* #main-link1 li a,#main-link2 li a{
     
     display: flex;

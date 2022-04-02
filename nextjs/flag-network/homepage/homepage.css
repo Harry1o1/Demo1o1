@@ -37,10 +37,13 @@
     height: 300px;
 }
 
-/* .img-containers{
+.img-containe.img-containers img{
     
-    min-width: 100%;
-} */
+    min-width: 330px;
+    min-height: 300px;
+    
+}
+
 /* #img-container1{
     
 } */
