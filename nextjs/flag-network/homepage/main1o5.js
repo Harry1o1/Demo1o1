@@ -82,12 +82,45 @@ document.querySelector(".btn_login_wallet-connect").onclick = login_wallet_conne
 
 
 
+st.forEach((small_sidebarn) => {
+    small_sidebarn.addEventListener('click',()=>{
+        
+        
+        // menu_ic.classList.add('active');
+        
+        if (small_sidebar.classList.contains('close')) {
+            
+            small_sidebar.classList.remove('close')
+            // console.log('All done!')
+        }
+        
+        else {
+            small_sidebar.classList.toggle('close')
+            // console.log('Yeh baby!')
+        }
+        if(menu_ic.classList.contains('active')){
+            console.log('hixycutdi5d2761111111')
+            small_sidebar.classList.toggle('close')
+            small_sidebar.classList.toggle('active');
+            
+        }
+        
+        
+        
+        // small_sidebar.classList.('close')
+        // st1.classList.toggle('active1o1');
+        small_sidebar.classList.toggle('active');
+        
+        
+    })
+})
 
 menu_ic.addEventListener('click', () => {
 
     menu_ic.classList.toggle('active');
     small_sidebar.classList.toggle('active');
     if (small_sidebar.classList.contains('close')) {
+        
         small_sidebar.classList.remove('close')
         // console.log('All done!')
     }
@@ -95,41 +128,12 @@ menu_ic.addEventListener('click', () => {
         small_sidebar.classList.toggle('close')
         // console.log('Yeh baby!')
     }
+    
 })
-// st.forEach((small_sidebar) => {
-//     // small_sidebar.addEventListener('click',(e)=>{
-//     //     // console.log('op')
 
-//     //     st_tg1.addEventListener('click',(e)=>{
-//     //         console.log("oppppppp1")
 
-//     //     })
-//     //     st_tg3.addEventListener('click',(e)=>{
-//     //         console.log("oppppppp2")
 
-//     //     })
-//     //     st_tg3.addEventListener('click',(e)=>{
-//     //         console.log("oppppppp3")
 
-//     //     })
-
-//     //     // small_sidebar1o1.classList.toggle('active1o1');
-//     //     // if (small_sidebar.classList.contains('st1')){
-//     //     //     console.log("st1")
-
-//     //     // }
-//     //     // if (small_sidebar.classList.contains('st2')){
-//     //     //     console.log("st2")
-
-//     //     // }
-//     //     // if (small_sidebar.classList.contains('st3')){
-//     //     //     console.log("st3")
-
-//     //     // }
-
-//     // })
-
-// })
 st_tg1.addEventListener('click', (e) => {
     // console.log("oppppppp1")
     st1.classList.toggle('active1o1');
