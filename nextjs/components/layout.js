@@ -44,7 +44,7 @@ export default function Layout({ children }) {
                             </Link>                            
                             
                         </li>
-                        <li class="ss-li" id="ss-li2">
+                        <li className="ss-li" id="ss-li2">
                             
                             
                             
@@ -59,7 +59,7 @@ export default function Layout({ children }) {
                             </Link>                        
  
                         </li>
-                        <li class="ss-li" id="ss-li2">
+                        <li className="ss-li" id="ss-li2">
                             
                             
                             
@@ -74,7 +74,7 @@ export default function Layout({ children }) {
                             
                             
                         </li>
-                        <li class="ss-li" id="ss-li2">
+                        <li className="ss-li" id="ss-li2">
                             
                             
                             
@@ -89,7 +89,7 @@ export default function Layout({ children }) {
                             
                             
                         </li>
-                        <li class="ss-li" id="ss-li2">
+                        <li className="ss-li" id="ss-li2">
                             
                             
                             
@@ -103,7 +103,7 @@ export default function Layout({ children }) {
                             </Link>                            
                             
                             </li>
-                        <li class="ss-li" id="ss-li3">
+                        <li className="ss-li" id="ss-li3">
                             
                             
                             
@@ -118,7 +118,7 @@ export default function Layout({ children }) {
                             </Link>                            
                             
                         </li>
-                        <li class="ss-li" id="ss-li4">
+                        <li className="ss-li" id="ss-li4">
                             <ion-icon name="ribbon-outline"></ion-icon>
 
                             <Link passHref href="/ido">
@@ -128,7 +128,7 @@ export default function Layout({ children }) {
                             </Link>                            
                             
                         </li>
-                        <li class="ss-li" id="ss-li5">
+                        <li className="ss-li" id="ss-li5">
                             
                             
                             
@@ -143,7 +143,7 @@ export default function Layout({ children }) {
                                 
                             </Link>                            
                             </li>
-                        <li class="ss-li" id="ss-li7">
+                        <li className="ss-li" id="ss-li7">
                             
                             
                                 <ion-icon name="sparkles-outline"></ion-icon>
@@ -352,7 +352,7 @@ export default function Layout({ children }) {
                 </div>
               </ul>
               <ul id="pf-ul3">
-                <h1>What's new Events</h1>
+                <h1>What new Events</h1>
                 <div id="main-link3" className="main-links">
                   <li id="pf-li1" className="pf-li"><a href="#" className="pf-a"> Ido drop </a></li>
                   <li id="pf-li2" className="pf-li"><a href="#" className="pf-a"> Ido Events drop </a></li>
