@@ -26,12 +26,12 @@ export default function Home_page(){
             {/* <h1>I am footer</h1> */}
             <div id="sec1" className="sec">
               <div id="img-big-container1o1">
-                <div className="img-containers" id="img-container1"><img src="../public/fn-hp-sec1-1.png" alt="imgs"  /></div>
-                <div className="img-containers" id="img-container2"><img src="../public/fn-hp-sec1-2.png" alt="imgs"  /></div>
-                <div className="img-containers" id="img-container3"><img src="../public/fn-hp-sec1-3.png" alt="imgs"  /></div>
-                <div className="img-containers" id="img-container4"><img src="../public/fn-hp-sec1-4.png" alt="imgs"  /></div>
-                <div className="img-containers" id="img-container5"><img src="../public/fn-hp-sec1-5.png" alt="imgs"  /></div>
-                <div className="img-containers" id="img-container6"><img src="../public/fn-hp-sec1-6.png" alt="imgs"  /></div>
+                <div className="img-containers" id="img-container1"><img src="../public/fn-hp-sec1-1.png" alt="imgs" height={100} width={100}/></div>
+                <div className="img-containers" id="img-container2"><img src="../public/fn-hp-sec1-2.png" alt="imgs" height={100} width={100}/></div>
+                <div className="img-containers" id="img-container3"><img src="../public/fn-hp-sec1-3.png" alt="imgs" height={100} width={100}/></div>
+                <div className="img-containers" id="img-container4"><img src="../public/fn-hp-sec1-4.png" alt="imgs" height={100} width={100}/></div>
+                <div className="img-containers" id="img-container5"><img src="../public/fn-hp-sec1-5.png" alt="imgs" height={100} width={100}/></div>
+                <div className="img-containers" id="img-container6"><img src="../public/fn-hp-sec1-6.png" alt="imgs" height={100} width={100}/></div>
               </div>
               {/* <h1>Hello I am section1</h1> */}
             </div>
