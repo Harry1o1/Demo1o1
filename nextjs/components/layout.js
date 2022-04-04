@@ -51,7 +51,7 @@ export default function Layout({ children }) {
                   </Link> 
                   
                 </li>
-                        <li class="ss-li" id="ss-li1">
+                        <li className="ss-li" id="ss-li1">
                             
                             <ion-icon name="home-outline"></ion-icon>
                             <Link passHref href="/home">
@@ -61,7 +61,7 @@ export default function Layout({ children }) {
                             </Link>                            
                             
                         </li>
-                        <li class="ss-li" id="ss-li2">
+                        <li className="ss-li" id="ss-li2">
                             
                             
                             
@@ -76,7 +76,7 @@ export default function Layout({ children }) {
                             </Link>                        
  
                         </li>
-                        <li class="ss-li" id="ss-li2">
+                        <li className="ss-li" id="ss-li2">
                             
                             
                             
@@ -91,7 +91,7 @@ export default function Layout({ children }) {
                             
                             
                         </li>
-                        <li class="ss-li" id="ss-li2">
+                        <li className="ss-li" id="ss-li2">
                             
                             
                             
@@ -106,7 +106,7 @@ export default function Layout({ children }) {
                             
                             
                         </li>
-                        <li class="ss-li" id="ss-li2">
+                        <li className="ss-li" id="ss-li2">
                             
                             
                             
@@ -120,7 +120,7 @@ export default function Layout({ children }) {
                             </Link>                            
                             
                             </li>
-                        <li class="ss-li" id="ss-li3">
+                        <li className="ss-li" id="ss-li3">
                             
                             
                             
@@ -135,7 +135,7 @@ export default function Layout({ children }) {
                             </Link>                            
                             
                         </li>
-                        <li class="ss-li" id="ss-li4">
+                        <li className="ss-li" id="ss-li4">
                             <ion-icon name="ribbon-outline"></ion-icon>
 
                             <Link passHref href="/ido">
@@ -145,7 +145,7 @@ export default function Layout({ children }) {
                             </Link>                            
                             
                         </li>
-                        <li class="ss-li" id="ss-li5">
+                        <li className="ss-li" id="ss-li5">
                             
                             
                             
@@ -160,7 +160,7 @@ export default function Layout({ children }) {
                                 
                             </Link>                            
                             </li>
-                        <li class="ss-li" id="ss-li7">
+                        <li className="ss-li" id="ss-li7">
                             
                             
                                 <ion-icon name="sparkles-outline"></ion-icon>
