@@ -40,68 +40,73 @@ export default function Layout({ children }) {
                       
                       
                   </li> */}
-            <li className="ss-li" id="ss-li1">
-              <Link passhref href="/home" >
-              <ion-icon name="home-outline" />
-              <a href="#">Home</a>
-                </Link> 
-              
-            </li>
-            <li className="ss-li" id="ss-li2">
-              <Link passhref href="/exchange" >
-              <ion-icon name="cash-outline" />
-              <a href="#">Exchange</a>          
-              </Link>              
-              
-            </li>
-            <li className="ss-li" id="ss-li2">
-              <Link passhref href="/nft" >
-              <ion-icon name="diamond-outline" />
-              <a href="#">Nft</a>
-              </Link>              
-              
-            </li>
-            <li className="ss-li" id="ss-li2">
-              <Link passhref href="/stack" >
-              <ion-icon name="analytics-outline" />
-              <a href="#">Stack</a>
-               </Link>             
-              
-            </li>
-            <li className="ss-li" id="ss-li2">
-              <Link passhref href="/airdrop" >
-              <ion-icon name="egg-outline" />
-              <a href="#">Airdrop</a>
-               </Link>             
-              
-            </li>
-            <li className="ss-li" id="ss-li3">
-              <Link passhref href="/ido_event" >
-              <ion-icon name="medal-outline" />
-              <a href="#">Ido-Event</a>
-              
-              </Link>              
-            </li>
-            <li className="ss-li" id="ss-li4">
-              <Link passhref href="/gamefi" >            
-              <ion-icon name="ribbon-outline" />
-              <a href="#">Ido</a>
-              </Link>                
-            </li>
-            <li className="ss-li" id="ss-li5">
-              <Link passhref href="/gamefi" >
-              <ion-icon name="game-controller-outline" />
-              <a href="#">GameFi</a>
-              
-              </Link>              
-              
-            </li>
-            <li className="ss-li" id="ss-li7">
-              <Link passhref href="/support_ukrane" >
-              <ion-icon name="sparkles-outline" />
-              <a href="#">Support Ukraine</a>
-              </Link>
-            </li>
+            <Link passhref href="/home" >
+                  
+                <li className="ss-li" id="ss-li1">
+                  <ion-icon name="home-outline" />
+                  <a href="#">Home</a>
+                  
+                </li>
+            </Link> 
+            <Link passhref href="/home" >
+                  
+                <li className="ss-li" id="ss-li1">
+                  <ion-icon name="home-outline" />
+                  <a href="#">Home</a>
+                  
+                </li>
+            </Link> 
+            <Link passhref href="/home" >
+                  
+                <li className="ss-li" id="ss-li1">
+                  <ion-icon name="home-outline" />
+                  <a href="#">Home</a>
+                  
+                </li>
+            </Link> 
+            <Link passhref href="/home" >
+                  
+                <li className="ss-li" id="ss-li1">
+                  <ion-icon name="home-outline" />
+                  <a href="#">Home</a>
+                  
+                </li>
+            </Link> 
+            <Link passhref href="/home" >
+                  
+                <li className="ss-li" id="ss-li1">
+                  <ion-icon name="home-outline" />
+                  <a href="#">Home</a>
+                  
+                </li>
+            </Link> 
+            <Link passhref href="/home" >
+                  
+                <li className="ss-li" id="ss-li1">
+                  <ion-icon name="home-outline" />
+                  <a href="#">Home</a>
+                  
+                </li>
+            </Link> 
+            <Link passhref href="/home" >
+                  
+                <li className="ss-li" id="ss-li1">
+                  <ion-icon name="home-outline" />
+                  <a href="#">Home</a>
+                  
+                </li>
+            </Link> 
+            <Link passhref href="/home" >
+                  
+                <li className="ss-li" id="ss-li1">
+                  <ion-icon name="home-outline" />
+                  <a href="#">Home</a>
+                  
+                </li>
+            </Link> 
+            
+            
+            
             <div className="strat-line">
               <li className="st st1">
                 <div className="st-main" id="st-m1">
