@@ -136,10 +136,6 @@ export default function Home_page(){
         strategy="beforeInteractive"
       />
 
-      <Script
-        src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/globals/main1o2.js"
-        strategy="beforeInteractive"
-      />
 
 
 
@@ -153,9 +149,6 @@ export default function Home_page(){
   
         <link rel="stylesheet" href="https://unpkg.com/open-props"/>
         <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
-
-   
-        <link href="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/globals/style1o2.css" rel="stylesheet" />
 
     
         
