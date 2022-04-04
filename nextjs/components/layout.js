@@ -40,70 +40,107 @@ export default function Layout({ children }) {
                       
                       
                   </li> */}
-            <Link passhref href="/home" >
                   
                 <li className="ss-li" id="ss-li1">
+                
                   <ion-icon name="home-outline" />
-                  <a href="#">Home</a>
+                  
+                  <Link passhref href="/home" >
+                    
+                     <a href="#">Home</a>
+                  </Link> 
                   
                 </li>
-            </Link> 
-            <Link passhref href="/home" >
-                  
                 <li className="ss-li" id="ss-li1">
+                
                   <ion-icon name="home-outline" />
-                  <a href="#">Home</a>
+                  
+                  <Link passhref href="/home" >
+                    
+                     <a href="#">Home</a>
+                  </Link> 
                   
                 </li>
-            </Link> 
-            <Link passhref href="/home" >
-                  
                 <li className="ss-li" id="ss-li1">
+                
                   <ion-icon name="home-outline" />
-                  <a href="#">Home</a>
+                  
+                  <Link passhref href="/home" >
+                    
+                     <a href="#">Home</a>
+                  </Link> 
                   
                 </li>
-            </Link> 
-            <Link passhref href="/home" >
-                  
                 <li className="ss-li" id="ss-li1">
+                
                   <ion-icon name="home-outline" />
-                  <a href="#">Home</a>
+                  
+                  <Link passhref href="/home" >
+                    
+                     <a href="#">Home</a>
+                  </Link> 
                   
                 </li>
-            </Link> 
-            <Link passhref href="/home" >
-                  
                 <li className="ss-li" id="ss-li1">
+                
                   <ion-icon name="home-outline" />
-                  <a href="#">Home</a>
+                  
+                  <Link passhref href="/home" >
+                    
+                     <a href="#">Home</a>
+                  </Link> 
                   
                 </li>
-            </Link> 
-            <Link passhref href="/home" >
-                  
                 <li className="ss-li" id="ss-li1">
+                
                   <ion-icon name="home-outline" />
-                  <a href="#">Home</a>
+                  
+                  <Link passhref href="/home" >
+                    
+                     <a href="#">Home</a>
+                  </Link> 
                   
                 </li>
-            </Link> 
-            <Link passhref href="/home" >
-                  
                 <li className="ss-li" id="ss-li1">
+                
                   <ion-icon name="home-outline" />
-                  <a href="#">Home</a>
+                  
+                  <Link passhref href="/home" >
+                    
+                     <a href="#">Home</a>
+                  </Link> 
                   
                 </li>
-            </Link> 
-            <Link passhref href="/home" >
-                  
                 <li className="ss-li" id="ss-li1">
+                
                   <ion-icon name="home-outline" />
-                  <a href="#">Home</a>
+                  
+                  <Link passhref href="/home" >
+                    
+                     <a href="#">Home</a>
+                  </Link> 
                   
                 </li>
-            </Link> 
+                <li className="ss-li" id="ss-li1">
+                
+                  <ion-icon name="home-outline" />
+                  
+                  <Link passhref href="/home" >
+                    
+                     <a href="#">Home</a>
+                  </Link> 
+                  
+                </li>
+                <li className="ss-li" id="ss-li1">
+                
+                  <ion-icon name="home-outline" />
+                  
+                  <Link passhref href="/home" >
+                    
+                     <a href="#">Home</a>
+                  </Link> 
+                  
+                </li>
             
             
             
