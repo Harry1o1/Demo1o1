@@ -33,14 +33,8 @@ export default function Layout({ children }) {
         </div>
         <div id="small-sidebar" className="close">
           <ul id="ss-ul">
-            {/* <li id="searchbar-container">
-                      
-                      <ion-icon name="search-outline"></ion-icon>
-                      <input type="search" name="Search" id="Search">
-                      
-                      
-                  </li> */}
-                        <li class="ss-li" id="ss-li1">
+
+                        <li className="ss-li" id="ss-li1">
                             
                             <ion-icon name="home-outline"></ion-icon>
                             <Link passHref href="/home">
