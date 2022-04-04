@@ -1,8 +1,4 @@
 
-import Navbar from "./navbar";
-import Footer from './footer';
-
-
 import Link from 'next/link'
 import Script from 'next/script'
 import Head from 'next/head'
