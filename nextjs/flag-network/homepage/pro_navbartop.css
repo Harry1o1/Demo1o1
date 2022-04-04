@@ -21,10 +21,11 @@
     display: flex;
     align-items: center;
     /* justify-content: center; */
-    border-bottom: var(--border-color);
+    border: var(--border-color);
+    
     background: var(--glass-bg);
     
-    height: 70px;
+    height: 72px;
     width: 100%;
     
     position: fixed;

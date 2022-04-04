@@ -22,6 +22,8 @@
 
     background: var(--sidebar-bg);
     border-right: var(--border-color);
+    border-left: var(--border-color);
+    
     overflow: hidden;
     /* animation: menuPopup 0.8s ease forwards; */
     transition: all 0.5s linear;
@@ -30,10 +32,10 @@
     width: 0 !important;
     
     position: fixed;
-    top: 70px;
+    top: 70.3px;
     left: 0;
     
-    z-index: 0 !important;
+    z-index: none !important;
 }
 #small-sidebar.active{
     
@@ -186,7 +188,7 @@
         min-height: 200vh !important;
         
         
-        z-index: 0 !important;
+        z-index: none !important;
     }
     #small-sidebar.close li,#small-sidebar.close .st-main{
         

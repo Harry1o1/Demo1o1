@@ -40,18 +40,7 @@ export default function Layout({ children }) {
                       
                       
                   </li> */}
-                  
-                <li className="ss-li" id="ss-li1">
-                
-                  <ion-icon name="home-outline" />
-                  
-                  <Link passhref href="/home" >
-                    
-                     <a href="#">Home</a>
-                  </Link> 
-                  
-                </li>
-                        <li className="ss-li" id="ss-li1">
+                        <li class="ss-li" id="ss-li1">
                             
                             <ion-icon name="home-outline"></ion-icon>
                             <Link passHref href="/home">
@@ -61,7 +50,7 @@ export default function Layout({ children }) {
                             </Link>                            
                             
                         </li>
-                        <li className="ss-li" id="ss-li2">
+                        <li class="ss-li" id="ss-li2">
                             
                             
                             
@@ -76,7 +65,7 @@ export default function Layout({ children }) {
                             </Link>                        
  
                         </li>
-                        <li className="ss-li" id="ss-li2">
+                        <li class="ss-li" id="ss-li2">
                             
                             
                             
@@ -91,7 +80,7 @@ export default function Layout({ children }) {
                             
                             
                         </li>
-                        <li className="ss-li" id="ss-li2">
+                        <li class="ss-li" id="ss-li2">
                             
                             
                             
@@ -106,7 +95,7 @@ export default function Layout({ children }) {
                             
                             
                         </li>
-                        <li className="ss-li" id="ss-li2">
+                        <li class="ss-li" id="ss-li2">
                             
                             
                             
@@ -120,7 +109,7 @@ export default function Layout({ children }) {
                             </Link>                            
                             
                             </li>
-                        <li className="ss-li" id="ss-li3">
+                        <li class="ss-li" id="ss-li3">
                             
                             
                             
@@ -135,7 +124,7 @@ export default function Layout({ children }) {
                             </Link>                            
                             
                         </li>
-                        <li className="ss-li" id="ss-li4">
+                        <li class="ss-li" id="ss-li4">
                             <ion-icon name="ribbon-outline"></ion-icon>
 
                             <Link passHref href="/ido">
@@ -145,7 +134,7 @@ export default function Layout({ children }) {
                             </Link>                            
                             
                         </li>
-                        <li className="ss-li" id="ss-li5">
+                        <li class="ss-li" id="ss-li5">
                             
                             
                             
@@ -160,7 +149,7 @@ export default function Layout({ children }) {
                                 
                             </Link>                            
                             </li>
-                        <li className="ss-li" id="ss-li7">
+                        <li class="ss-li" id="ss-li7">
                             
                             
                                 <ion-icon name="sparkles-outline"></ion-icon>
@@ -349,22 +338,10 @@ export default function Layout({ children }) {
             
             
             
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
             <footer>
               <ul id="pf-ul1">
                 <h1>About us</h1>
-                <div id="main-Link1" className="main-Links">
+                <div id="main-link1" className="main-links">
                   <li id="pf-li1" className="pf-li"><a href="#" className="pf-a"> Join a meetup </a></li>
                   <li id="pf-li2" className="pf-li"><a href="#" className="pf-a"> Ask a question</a></li>
                   <li id="pf-li3" className="pf-li"><a href="#" className="pf-a"> Help </a></li>
@@ -372,7 +349,7 @@ export default function Layout({ children }) {
               </ul>
               <ul id="pf-ul2">
                 <h1>Pages</h1>
-                <div id="main-Link2" className="main-Links">
+                <div id="main-link2" className="main-links">
                   <li id="pf-li1" className="pf-li"><a href="#" className="pf-a"> Airdrop </a></li>
                   <li id="pf-li2" className="pf-li"><a href="#" className="pf-a"> Nft </a></li>
                   <li id="pf-li3" className="pf-li"><a href="#" className="pf-a"> Gamefi</a></li>
@@ -381,8 +358,8 @@ export default function Layout({ children }) {
                 </div>
               </ul>
               <ul id="pf-ul3">
-                <h1>Whats new Events</h1>
-                <div id="main-Link3" className="main-Links">
+                <h1>What's new Events</h1>
+                <div id="main-link3" className="main-links">
                   <li id="pf-li1" className="pf-li"><a href="#" className="pf-a"> Ido drop </a></li>
                   <li id="pf-li2" className="pf-li"><a href="#" className="pf-a"> Ido Events drop </a></li>
                   <li id="pf-li3" className="pf-li"><a href="#" className="pf-a"> Sales </a></li>
@@ -390,7 +367,7 @@ export default function Layout({ children }) {
               </ul>
               <ul id="pf-ul4">
                 <h1>Join us</h1>
-                <div id="main-Link4" className="main-Links">
+                <div id="main-link4" className="main-links">
                   <li id="pf-li1" className="pf-li"><a href="#" className="pf-a"> Twitter </a></li>
                   <li id="pf-li2" className="pf-li"><a href="#" className="pf-a"> Discord </a></li>
                   <li id="pf-li3" className="pf-li"><a href="#" className="pf-a"> Facebook </a></li>
@@ -402,8 +379,20 @@ export default function Layout({ children }) {
                 All rights reserved to  
               </div>
             </footer>
-          </main>
-        
+
+
+
+        </main>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
         
         
         
@@ -482,7 +471,7 @@ export default function Layout({ children }) {
       
        
     <Head>
-        <title>LetWorkBeDone</title>
+        <title>flag-network</title>
         <meta name="description" content="Generated by create next app" />
         <link rel="stylesheet" href="https://unpkg.com/open-props"/>
         <link rel="stylesheet" href="https://unpkg.com/open-props/normalize.min.css"/>
