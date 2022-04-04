@@ -55,6 +55,15 @@ main{
     
     z-index: 0;
 }
+
+
+#pro_main_container{
+  
+  min-height: 200vh;
+  width: 100%;
+  
+  
+}
 .gradient-text,h1,h2,h3,h4,h6{
         text-align: center;
         /* background: var(--gradient-1); */

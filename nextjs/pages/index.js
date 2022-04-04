@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Script from 'next/script'
 import Head from 'next/head'
+import Image from 'next/image'
 // import img from 'next/img'
 
 
@@ -21,17 +22,17 @@ export default function Home_page(){
   
             {/* <h1 class="gradient-text">
              Hello from flag-network!
-             .img-containers*6>img[src="../public/fn-hp-sec1-$"][alt="imgs" ]
+             .img-containers*6>img[src="/fn-hp-sec1-$"][alt="imgs" ]
          </h1> */}
             {/* <h1>I am footer</h1> */}
             <div id="sec1" className="sec">
               <div id="img-big-container1o1">
-                <div className="img-containers" id="img-container1"><img src="../public/fn-hp-sec1-1.png" alt="imgs" height={100} width={100}/></div>
-                <div className="img-containers" id="img-container2"><img src="../public/fn-hp-sec1-2.png" alt="imgs" height={100} width={100}/></div>
-                <div className="img-containers" id="img-container3"><img src="../public/fn-hp-sec1-3.png" alt="imgs" height={100} width={100}/></div>
-                <div className="img-containers" id="img-container4"><img src="../public/fn-hp-sec1-4.png" alt="imgs" height={100} width={100}/></div>
-                <div className="img-containers" id="img-container5"><img src="../public/fn-hp-sec1-5.png" alt="imgs" height={100} width={100}/></div>
-                <div className="img-containers" id="img-container6"><img src="../public/fn-hp-sec1-6.png" alt="imgs" height={100} width={100}/></div>
+                <div className="img-containers" id="img-container1"><Image src="/fn-hp-sec1-1.png" alt="imgs" height={100} width={100}/></div>
+                <div className="img-containers" id="img-container2"><Image src="/fn-hp-sec1-2.png" alt="imgs" height={100} width={100}/></div>
+                <div className="img-containers" id="img-container3"><Image src="/fn-hp-sec1-3.png" alt="imgs" height={100} width={100}/></div>
+                <div className="img-containers" id="img-container4"><Image src="/fn-hp-sec1-4.png" alt="imgs" height={100} width={100}/></div>
+                <div className="img-containers" id="img-container5"><Image src="/fn-hp-sec1-5.png" alt="imgs" height={100} width={100}/></div>
+                <div className="img-containers" id="img-container6"><Image src="/fn-hp-sec1-6.png" alt="imgs" height={100} width={100}/></div>
               </div>
               {/* <h1>Hello I am section1</h1> */}
             </div>

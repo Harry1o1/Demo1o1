@@ -51,96 +51,130 @@ export default function Layout({ children }) {
                   </Link> 
                   
                 </li>
-                <li className="ss-li" id="ss-li1">
-                
-                  <ion-icon name="home-outline" />
-                  
-                  <Link passhref href="/home" >
-                    
-                     <a href="#">Home</a>
-                  </Link> 
-                  
-                </li>
-                <li className="ss-li" id="ss-li1">
-                
-                  <ion-icon name="home-outline" />
-                  
-                  <Link passhref href="/home" >
-                    
-                     <a href="#">Home</a>
-                  </Link> 
-                  
-                </li>
-                <li className="ss-li" id="ss-li1">
-                
-                  <ion-icon name="home-outline" />
-                  
-                  <Link passhref href="/home" >
-                    
-                     <a href="#">Home</a>
-                  </Link> 
-                  
-                </li>
-                <li className="ss-li" id="ss-li1">
-                
-                  <ion-icon name="home-outline" />
-                  
-                  <Link passhref href="/home" >
-                    
-                     <a href="#">Home</a>
-                  </Link> 
-                  
-                </li>
-                <li className="ss-li" id="ss-li1">
-                
-                  <ion-icon name="home-outline" />
-                  
-                  <Link passhref href="/home" >
-                    
-                     <a href="#">Home</a>
-                  </Link> 
-                  
-                </li>
-                <li className="ss-li" id="ss-li1">
-                
-                  <ion-icon name="home-outline" />
-                  
-                  <Link passhref href="/home" >
-                    
-                     <a href="#">Home</a>
-                  </Link> 
-                  
-                </li>
-                <li className="ss-li" id="ss-li1">
-                
-                  <ion-icon name="home-outline" />
-                  
-                  <Link passhref href="/home" >
-                    
-                     <a href="#">Home</a>
-                  </Link> 
-                  
-                </li>
-                <li className="ss-li" id="ss-li1">
-                
-                  <ion-icon name="home-outline" />
-                  
-                  <Link passhref href="/home" >
-                    
-                     <a href="#">Home</a>
-                  </Link> 
-                  
-                </li>
-                <li className="ss-li" id="ss-li1">
-                
-                  <ion-icon name="home-outline" />
-                  
-                  <Link passhref href="/home" >
-                    
-                     <a href="#">Home</a>
-                  </Link> 
-                  
-                </li>
+                        <li class="ss-li" id="ss-li1">
+                            
+                            <ion-icon name="home-outline"></ion-icon>
+                            <Link passHref href="/home">
+                                
+                                <a href="#">Home</a>
+                                
+                            </Link>                            
+                            
+                        </li>
+                        <li class="ss-li" id="ss-li2">
+                            
+                            
+                            
+                            
+                                
+                                <ion-icon name="cash-outline"></ion-icon>
+                                
+                                
+                            <Link passHref href="/exchange">
+                                
+                                <a href="#">Exchange</a>                               
+                            </Link>                        
+ 
+                        </li>
+                        <li class="ss-li" id="ss-li2">
+                            
+                            
+                            
+                                <ion-icon name="diamond-outline"></ion-icon>
+                            
+                            <Link passHref href="/nft">
+                            
+                                <a href="#">Nft</a>
+                                
+                                
+                            </Link>                            
+                            
+                            
+                        </li>
+                        <li class="ss-li" id="ss-li2">
+                            
+                            
+                            
+                                <ion-icon name="analytics-outline"></ion-icon>
+                            
+                            <Link passHref href="/stack">
+                                <a href="#">Stack</a>
+                                
+                                
+                            </Link>                            
+                            
+                            
+                            
+                        </li>
+                        <li class="ss-li" id="ss-li2">
+                            
+                            
+                            
+                                <ion-icon name="egg-outline"></ion-icon>
+                            
+                            <Link passHref href="/airdrop">
+                                
+                            
+                                <a href="#">Airdrop</a>
+                                
+                            </Link>                            
+                            
+                            </li>
+                        <li class="ss-li" id="ss-li3">
+                            
+                            
+                            
+                                <ion-icon name="medal-outline"></ion-icon>
+                            
+                            <Link passHref href="/ido_event">
+                                
+                                
+                            
+                                <a href="#">Ido-Event</a>
+                            
+                            </Link>                            
+                            
+                        </li>
+                        <li class="ss-li" id="ss-li4">
+                            <ion-icon name="ribbon-outline"></ion-icon>
+
+                            <Link passHref href="/ido">
+
+                            
+                            <a href="#">Ido</a>
+                            </Link>                            
+                            
+                        </li>
+                        <li class="ss-li" id="ss-li5">
+                            
+                            
+                            
+                            
+                                <ion-icon name="game-controller-outline"></ion-icon>
+                            
+                            <Link passHref href="/gamefi">
+                                
+                            
+                                
+                                <a href="#">GameFi</a>
+                                
+                            </Link>                            
+                            </li>
+                        <li class="ss-li" id="ss-li7">
+                            
+                            
+                                <ion-icon name="sparkles-outline"></ion-icon>
+                            
+                            
+                            <Link passHref href="/support_ukrane">
+                                
+                            
+                                <a href="#">Support Ukraine</a>
+                                
+                            </Link>                            
+                            
+                            
+                        </li>
             
             
             
@@ -308,9 +342,9 @@ export default function Layout({ children }) {
             
             
             
-            
-            {children}
-            
+             <div id="pro_main_container">
+              {children}
+            </div>
             
             
             
@@ -442,7 +476,7 @@ export default function Layout({ children }) {
       />
       
       <Script
-        src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/homepage/main1o5.js"
+        src="https://cdn.jsdelivr.net/gh/Harry1o1/Demo1o1/nextjs/flag-network/homepage/main1o6.js"
         strategy="beforeInteractive"
       />
       
